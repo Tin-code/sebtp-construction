@@ -28,13 +28,13 @@ header.home-banner .brand img{
     height: 50px;
 }
 .middle-div{
-    background:url('/assets/images/engagements_c2cdb32b.png') ;
+    background:url('assets/images/engagements_c2cdb32b.png') ;
     background-repeat: no-repeat;
     height: 464px;
     width: 1064px;
 }
 .bg-home{
-    background: url('/assets/images/top-bg2_232a02ba.png');
+    background: url('assets/images/top-bg2_232a02ba.png');
     background-repeat: no-repeat;
     background-size:100%;
     background-position:50%;
@@ -44,7 +44,7 @@ header.home-banner .brand img{
     filter: brightness(0.9);
 }
 .bg-about{
-    background: url('/assets/images/AccueilQui-SommesNous_1b44d1c4.png');
+    background: url('assets/images/AccueilQui-SommesNous_1b44d1c4.png');
     background-repeat: no-repeat;
     background-size:100%;
     background-position:50%;
@@ -54,7 +54,7 @@ header.home-banner .brand img{
     filter: brightness(0.9);
 }
 .real-bg{
-    background: url('/assets/images/CNFPT_Limoges-35.jpg');
+    background: url('assets/images/CNFPT_Limoges-35.jpg');
     background-repeat: no-repeat;
     background-size:100%;
     width: 100%;
@@ -63,7 +63,7 @@ header.home-banner .brand img{
     filter: brightness(0.9);
 }
 .job-bg{
-    background: url('/assets/images/rejoindre-bg_2ed2e124.png');
+    background: url('assets/images/rejoindre-bg_2ed2e124.png');
     background-repeat: no-repeat;
     background-size:100%;
     width: 100%;
@@ -72,7 +72,7 @@ header.home-banner .brand img{
     filter: brightness(0.9);
 }
 .contact-bg{
-    background: url('/assets/images/contact-bg_ece2084e.png');
+    background: url('assets/images/contact-bg_ece2084e.png');
     background-repeat: no-repeat;
     background-size:100%;
     width: 100%;
@@ -115,7 +115,7 @@ body.home #metiers ul a {
 }
 
 .first{
-    background: url('/assets/images/OFF1_29ad12c1.png');
+    background: url('assets/images/OFF1_29ad12c1.png');
     background-size: 100% auto;
     display: flex;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body.home #metiers ul a {
     margin: 0px;
 }
 .second{
-    background: url('/assets/images/OFF2_eaded42f.png');
+    background: url('assets/images/OFF2_eaded42f.png');
     background-size: 100% auto;
     display: flex;
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ body.home #metiers ul a {
     width: 100px;
 }
 .third{
-    background: url('/assets/images/OFF3_4e0aed8f.png');
+    background: url('assets/images/OFF3_4e0aed8f.png');
     background-size: 100% auto;
     display: flex;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ body.home #metiers ul a {
     text-align: center;
 }
 .forth{
-    background: url('/assets/images/OFF4_b249dffc.png');
+    background: url('assets/images/OFF4_b249dffc.png');
     background-size: 100% auto;
     display: flex;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ body.home #metiers ul a {
     width: 473px;
     float: right;
     height: auto;
-    background: url('/assets/images/AccueilQui-SommesNous_1b44d1c4.png');
+    background: url('assets/images/AccueilQui-SommesNous_1b44d1c4.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -225,7 +225,7 @@ body.home #metiers ul a {
 .first-reference{
     width: 422px;
     height: 422px;
-    background: url('/assets/images/Résidence_BeauneLesMines-16.jpg');
+    background: url('assets/images/Résidence_BeauneLesMines-16.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -241,7 +241,7 @@ body.home #metiers ul a {
 .second-reference{
     width: 422px;
     height: 422px;
-    background: url('/assets/images/RestaurantLaPoste_Limoges-17.jpg');
+    background: url('assets/images/RestaurantLaPoste_Limoges-17.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -251,7 +251,7 @@ body.home #metiers ul a {
 .third-reference{
     width: 422px;
     height: 422px;
-    background: url('/assets/images/CampusVanteaux_Limoges-29.jpg');
+    background: url('assets/images/CampusVanteaux_Limoges-29.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -278,25 +278,25 @@ body.home #metiers ul a {
     overflow: hidden;
 }
 .chantier{
-    background: url('/assets/images/798572883864736_1835674180154596-0-400.jpg');
+    background: url('assets/images/798572883864736_1835674180154596-0-400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
 }
 .realisations{
-    background: url('/assets/images/798572883864736_1805154569873224-0-400.jpg');
+    background: url('assets/images/798572883864736_1805154569873224-0-400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
 }
 .limoges{
-    background: url('/assets/images/798572883864736_1695393324182683-0-400.jpg');
+    background: url('assets/images/798572883864736_1695393324182683-0-400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
 }
 .autres{
-    background: url('/assets/images/798572883864736_1645462672509082-0-400.jpg');
+    background: url('assets/images/798572883864736_1645462672509082-0-400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
