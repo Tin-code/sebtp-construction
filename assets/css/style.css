@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Oswald:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Open Sans,sans-serif;
+    overflow-x: hidden;
+}
+
+header.home-banner{
+    height: 130px;
+    background-color: rgba(0, 0, 0,.7);
+    z-index: 999;
+}
+header.home-banner li.menu-item{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header.home-banner li.menu-item a{
+    color: aliceblue;
+}
+header.home-banner .brand img{
+    height: 50px;
+}
+.middle-div{
+    background:url('/assets/images/engagements_c2cdb32b.png') ;
+    background-repeat: no-repeat;
+    height: 464px;
+    width: 1064px;
+}
+.bg-home{
+    background: url('/assets/images/top-bg2_232a02ba.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:50%;
+    width: 100%;
+    height:800px;
+    font-family: 'Open Sans', sans-serif;
+    filter: brightness(0.9);
+}
+.bg-about{
+    background: url('/assets/images/AccueilQui-SommesNous_1b44d1c4.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:50%;
+    width: 100%;
+    height:550px;
+    font-family: 'Open Sans', sans-serif;
+    filter: brightness(0.9);
+}
+.real-bg{
+    background: url('/assets/images/CNFPT_Limoges-35.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    height:550px;
+    font-family: 'Open Sans', sans-serif;
+    filter: brightness(0.9);
+}
+.job-bg{
+    background: url('/assets/images/rejoindre-bg_2ed2e124.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    height:550px;
+    font-family: 'Open Sans', sans-serif;
+    filter: brightness(0.9);
+}
+.contact-bg{
+    background: url('/assets/images/contact-bg_ece2084e.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    height:550px;
+    font-family: 'Open Sans', sans-serif;
+    filter: brightness(0.9);
+}
+.text{
+    font-size: 18px;
+    line-height: 35px;
+}
+.ft-size-13{
+    font-size: 13px;
+}
+header.home-banner .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-pack: justify;
+    margin: 0px auto;
+    width: 1440px;
+    height: 130px;
+}
+.main-title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.metiers{
+    overflow: hidden;
+}
+
+
+body.home #metiers ul a {
+    font-size: 42px;
+    line-height: 77px;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.first{
+    background: url('/assets/images/OFF1_29ad12c1.png');
+    background-size: 100% auto;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 643.5px;
+    height: 421px;
+    padding: 0;
+    float: left;
+    border: 10px solid #fff;
+    text-align: center;
+    margin: 0px;
+}
+.second{
+    background: url('/assets/images/OFF2_eaded42f.png');
+    background-size: 100% auto;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 643.5px;
+    height: 421px;
+    padding: 0;
+    float: left;
+    border: 10px solid #fff;
+    text-align: center;
+}
+.smart-gray{
+    color: #5c5f60;
+}
+.red-cont{
+    width: 300px;
+}
+.gray-cont{
+    width: 100px;
+}
+.third{
+    background: url('/assets/images/OFF3_4e0aed8f.png');
+    background-size: 100% auto;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 643.5px;
+    height: 421px;
+    padding: 0;
+    float: left;
+    border: 10px solid #fff;
+    text-align: center;
+}
+.forth{
+    background: url('/assets/images/OFF4_b249dffc.png');
+    background-size: 100% auto;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 643.5px;
+    height: 421px;
+    padding: 0;
+    float: left;
+    border: 10px solid #fff;
+    text-align: center;
+}
+.marg-top{
+    margin-top: -50px;
+}
+.float-title{
+    font-size: 42px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.bg-gray{
+    background-color: #f6f8f9
+}
+.red-text{
+    font-size: 48px;
+    color: #c4332d;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.about-para{
+    line-height: 35px;
+    font-size: 18px;
+    max-width: 498px;
+    color: #5c5f60;
+    font-weight: 400;
+}
+.about-pict{
+    width: 473px;
+    float: right;
+    height: auto;
+    background: url('/assets/images/AccueilQui-SommesNous_1b44d1c4.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.bg-red{
+    background-color: #c4332d;
+}
+.my-red{
+    color: #c4332d;
+}
+.conteneur{
+    background-color: #5c5f60;
+}
+.first-reference{
+    width: 422px;
+    height: 422px;
+    background: url('/assets/images/Résidence_BeauneLesMines-16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.account{
+    width: 350px;
+}
+.border-left{
+    border-left: 2px solid #777;
+}
+.second-reference{
+    width: 422px;
+    height: 422px;
+    background: url('/assets/images/RestaurantLaPoste_Limoges-17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.third-reference{
+    width: 422px;
+    height: 422px;
+    background: url('/assets/images/CampusVanteaux_Limoges-29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.border-10{
+    border: 10px solid #fff;
+}
+.cover{
+    background: linear-gradient(179deg,hsla(0,0%,100%,0) 60%,#777);
+    width: 422px;
+    height: 422px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.chantier{
+    background: url('/assets/images/798572883864736_1835674180154596-0-400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+.realisations{
+    background: url('/assets/images/798572883864736_1805154569873224-0-400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+.limoges{
+    background: url('/assets/images/798572883864736_1695393324182683-0-400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+.autres{
+    background: url('/assets/images/798572883864736_1645462672509082-0-400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+.dark-gray{
+    color: #353638;
+    font-size: 12px;
+}
+.ref-para{
+    font-size: 12px;
+    max-width: 498px;
+    color: #353638;
+    font-weight: 400;
+    overflow: auto;
+    height: 100px;
+}
+.aff{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.footer-bg{
+    background-color: #2D2E30;
+}
+.border-right{
+    border-right: 1px solid #777;
+}
+.weird-blue{
+    color: #999faa;
+}
