@@ -3,15 +3,11 @@
 *{
     box-sizing: border-box;
 }
-
-
 body{
     margin: 0;
     overflow-x: hidden;
     font-family: Open Sans,sans-serif;
-    overflow-x: hidden;
 }
-
 header.home-banner{
     height: 130px;
     background-color: rgba(0, 0, 0,.7);
@@ -39,29 +35,30 @@ header.home-banner .brand img{
     background-size:100%;
     background-position:50%;
     width: 100%;
-    height:800px;
+    height:10cm;
     font-family: 'Open Sans', sans-serif;
     filter: brightness(0.9);
 }
-.bg-about{
+.about{
     background: url('../images/AccueilQui-SommesNous_1b44d1c4.png');
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position:50%;
-    width: 100%;
-    height:550px;
-    font-family: 'Open Sans', sans-serif;
+    background-size: 100% 70vh;
+    height: 60vh;
     filter: brightness(0.9);
 }
-.real-bg{
+.autre{
     background: url('../images/CNFPT_Limoges-35.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
-    width: 100%;
-    height:550px;
-    font-family: 'Open Sans', sans-serif;
-    filter: brightness(0.9);
+    background-size: 100% 181vh;
+    height: 60vh;
 }
+.join{
+    background: url('../images/rejoindre-bg_2ed2e124.png');
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    height: 80vh;
+}
+
 .job-bg{
     background: url('../images/rejoindre-bg_2ed2e124.png');
     background-repeat: no-repeat;
@@ -71,13 +68,11 @@ header.home-banner .brand img{
     font-family: 'Open Sans', sans-serif;
     filter: brightness(0.9);
 }
-.contact-bg{
+.contact{
     background: url('../images/contact-bg_ece2084e.png');
     background-repeat: no-repeat;
-    background-size:100%;
-    width: 100%;
-    height:550px;
-    font-family: 'Open Sans', sans-serif;
+    background-size: 100% 70vh;
+    height: 60vh;
     filter: brightness(0.9);
 }
 .text{
@@ -103,8 +98,6 @@ header.home-banner .container{
 .metiers{
     overflow: hidden;
 }
-
-
 body.home #metiers ul a {
     font-size: 42px;
     line-height: 77px;
@@ -326,3 +319,11 @@ body.home #metiers ul a {
 .weird-blue{
     color: #999faa;
 }
+@media screen and (max-width: 768px) { 
+    #dark{
+        background-color: #111;
+    }
+ }
+.marg-l{
+     margin-left: 120px;
+ }
