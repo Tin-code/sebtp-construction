@@ -323,6 +323,12 @@ body.home #metiers ul a {
     #dark{
         background-color: #111;
     }
+    .height-small{
+        height: 247px;
+    }
+    .f-height{
+        height: 312px;
+    }
  }
 .marg-l{
      margin-left: 20px;
