@@ -319,7 +319,7 @@ body.home #metiers ul a {
 .weird-blue{
     color: #999faa;
 }
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 458px) { 
     #dark{
         background-color: #111;
     }
